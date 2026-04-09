@@ -1,0 +1,13 @@
+Vou ser sincero: o começo foi um pouco caótico. O Git tem essa mania de ser muito literal, e logo de cara tomei aquele erro clássico de "not a git repository". Eu estava tentando rodar comandos na pasta errada e demorei um pouco para entender que eu precisava estar exatamente dentro da pasta clonada para a "mágica" acontecer. Outra parte que deu um nó na cabeça foi quando os arquivos simplesmente sumiam do VS Code ao trocar de branch; parecia que eu tinha deletado tudo, até entender que o Git só estava me mostrando o que existia naquela linha do tempo específica.
+
+O ponto alto da dificuldade foi o conflito proposital. Ver aquelas marcações vermelhas no GitHub dá um gelo na barriga, porque você fica com medo de apagar a linha errada e estragar o código. Gerenciar o fluxo de abrir PR, comentar no próprio código e depois dar merge, tudo isso enquanto tentava manter os commits no padrão semântico, exigiu um malabarismo mental que eu não esperava.
+
+O que ficou claro
+Apesar dos sustos, muita coisa "clicou" na minha cabeça hoje. A ideia de que commits não são apenas salvamentos, mas mensagens para o meu "eu do futuro" ou para o meu time, ficou muito clara com os Conventional Commits. Usar prefixos como feat: e fix: deixa o histórico com uma cara muito mais profissional e organizada.
+
+As branches também deixaram de ser um bicho de sete cabeças. Entendi que elas são como rascunhos seguros: você faz a bagunça que quiser lá e, se der tudo certo, pede permissão para juntar com a main através de um Pull Request. O PR é, na verdade, uma grande rede de segurança que impede a gente de subir besteira direto para o projeto principal.
+
+O que ainda é confuso
+Ainda sinto que dependo muito da interface visual do GitHub para resolver problemas maiores, como os conflitos de merge. Se eu tivesse que resolver aquele mesmo conflito puramente pelo terminal, sem as cores e os botões do navegador, acho que eu ainda me perderia um pouco.
+
+Também fico com algumas dúvidas sobre como organizar melhor os commits quando estou no meio de uma tarefa longa. Às vezes a vontade é de commitar qualquer coisa só para salvar o progresso, mas sei que preciso manter o padrão semântico. Quero aprender mais sobre comandos como o git stash, que dizem ser útil para "guardar" alterações temporárias, e entender de vez a diferença real entre um merge e um rebase, que ainda parece um pouco confuso na minha cabeça.
