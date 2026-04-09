@@ -1,1 +1,5 @@
+feat/conflito-a
 Linha alterada pela branch A
+Linha alterada pela branch B
+Conflito resolvido
+main
