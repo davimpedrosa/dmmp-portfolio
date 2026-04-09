@@ -1,1 +1,1 @@
-function saudacao() { console.log('Olá!'); }
+function saudacao(nome) { console.log('Olá, ' + nome + '!'); } saudacao('Davi');
